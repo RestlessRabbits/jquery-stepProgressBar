@@ -78,6 +78,7 @@
 }
 .step-progressbar-steplabel.step-progressbar-laststep {
   transform: translate(-100%, 0);
+  white-space: nowrap;
 }
 .step-progressbar-steplabel:not(.step-progressbar-firststep):not(.step-progressbar-laststep) {
   transform: translate(-50%, 0);
